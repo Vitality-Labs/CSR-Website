@@ -1,0 +1,416 @@
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#fade { 
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
+
+html {
+  background-color: black;
+}
+
+.hr1 {
+  float: right;
+  border: 1px solid white;
+  margin: 10px 22% 0px;
+  width: 19%;
+  color: white;
+  background-color: white;
+}
+
+.navigation-bar {
+  background-color: white;
+  height: 70px;
+  width: 100%;
+  text-align:center;
+}
+
+.buffer {
+  background-color: white;
+  height: 5px;
+  width: 100%;
+  text-align:center;
+}
+
+.navigation-bar img{
+  float: left;
+  width: 70px;
+  height: 70px;
+}
+
+.navigation-bar ul {
+  float: right;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.navigation-bar li {
+  list-style-type: none;
+  padding: 0px;
+  height: 24px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  display: inline;
+}
+
+.navigation-bar li a {
+  color: black;
+  font-size: 16px;
+  font-family: "Proxima Nova", Open Sans, sans-serif;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 5px 10px;
+  opacity: 0.8;
+}
+
+.navigation-bar li a.active-page {
+  color: #ff6b6b;
+  font-size: 16px;
+  font-family: "Proxima Nova", Open Sans, sans-serif;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 5px 10px;
+  opacity: 0.8;
+  border: 1px solid #ff6b6b;
+}
+
+.navigation-bar li a:hover {
+  color: #ff6b6b;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Proxima Nova", Open Sans, sans-serif;
+  line-height: 70px;
+  padding: 5px 10px;
+  opacity: 0.9;
+
+}
+
+
+#navigation-container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 70px;
+}
+
+.social-media-bar {
+  background-color: white;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+#social-media-container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 30px;
+}
+
+#social-media-container a {
+  color: black;
+  text-decoration: none;
+  font-family: "Proxima Nova", Open Sans, sans-serif;
+}
+
+#social-media-container a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.social-media-bar h3  {
+  float: right;
+  color: black;
+  font-size: 16px;
+  font-family: "Proxima Nova", Open Sans, sans-serif;
+  margin: 6px 0px 15px;
+  opacity: 0.8;
+}
+
+.social-media-bar h1  {
+  float: left;
+  color: black;
+  font-size: 14px;
+  font-family: "Proxima Nova", Open Sans, sans-serif;
+  margin: 10px 0px 15px;
+  opacity: 0.8;
+}
+
+.social-media-bar ul {
+  float: right;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 25px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.social-media-bar li {
+  list-style-type: none;
+  padding: 0px;
+  height: 24px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  display: inline;
+}
+
+.social-media-bar li a {
+  text-decoration: none;
+  line-height: 30px;
+  padding: 5px 12px;
+  opacity: 0.8;
+}
+
+.social-media-bar li a:hover {
+  text-decoration: none;
+  line-height: 30px;
+  padding: 20px 12px 8px;
+  opacity: 0.8;
+  background: #ff6b6b;
+}
+
+.featured-release {
+  background-image: url('../img/banners/001.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height: 625px;
+  width: 100%;
+  text-align:center;
+}
+
+#featured-release-container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 600px;
+}
+
+.featured-release h1 {
+  float: left;
+  color: white;
+  font-size: 48px;
+  font-family: "Proxima Nova", Open Sans, sans-serif;
+  margin: 20px 0px 15px;
+  text-decoration: none;
+}
+
+.featured-release img {
+  float: left;
+  color: white;
+  font-size: 24px;
+  margin-left: 25px;
+  width: 400px;
+  height: 400px;
+  font-family: "Proxima Nova", Open Sans, sans-serif;
+  text-decoration: none;
+  box-shadow: 1px 1px 5px black;
+}
+
+.featured-release h2 {
+  float: center;
+  color: white;
+  font-size: 38px;
+  font-family: "Proxima Nova", Open Sans, sans-serif;
+  margin: 20px 10px 10px;
+  text-decoration: none;
+}
+
+.featured-release h3 {
+  font-style: italic;
+  float: center;
+  color: white;
+  font-size: 22px;
+  font-family: "Proxima Nova", Open Sans, sans-serif;
+  margin: 20px 10px 10px;
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+.featured-release h3:hover {
+  font-style: italic;
+  float: center;
+  color: white;
+  font-size: 22px;
+  font-family: "Proxima Nova", Open Sans, sans-serif;
+  margin: 20px 10px 10px;
+  text-decoration: underline;
+  opacity: 0.9;
+}
+
+.featured-release h4 {
+  float: center;
+  color: white;
+  font-size: 14px;
+  font-family: "Proxima Nova", Open Sans, sans-serif;
+  margin: 45px 10px 15px;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.featured-release button {
+  float: center;
+  background: black;
+  color: white;
+  border: none;
+  font-family: "Proxima Nova", Open Sans, sans-serif;
+  padding: 8px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 15px 15px 10px;
+  box-shadow: 1px 1px 5px black;
+}
+
+.featured-release button:hover {
+  cursor:pointer;
+  float: center;
+  background: #ff6b6b;
+  color: white;
+  font-family: "Proxima Nova", Open Sans, sans-serif;
+  border: none;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: underline;
+  display: inline-block;
+  font-size: 16px;
+  margin: 15px 15px 10px;
+  box-shadow: 1px 1px 5px black;
+}
+
+.footer {
+  background: black;
+  height: 20px;
+  width: 100%;
+  text-align:center;
+}
+
+.footer h1 {
+  float: center;
+  color: white;
+  font-family: "Proxima Nova", Open Sans, sans-serif;
+  font-size: 8px;
+  margin: 6px 0px 0px;
+  text-decoration: none;
+}
+
+.subpage-container {
+  background-color: white;
+  height: 1200px;
+  width: 100%;
+  text-align:center;
+}
+
+.subpage-content {
+  float: center;
+  background-color: black;
+  width: 75%;
+  height: 1170px; 
+  text-align:center;
+  margin: auto; 
+}
+
+.subpage-content h1 {
+  float: left;
+  color: white;
+  font-family: "Proxima Nova", Open Sans, sans-serif;
+  font-size: 28px;
+  margin: 20px 50px 0px;
+  border-bottom: 1px solid white;
+  text-decoration: none;
+}
+
+.contact-page {
+  float: center;
+  width: 80%;
+  height: 700px;
+  margin: auto; 
+  background-color: black; 
+  text-align: center;
+}
+
+.contact-page a {
+   color: white;
+   text-decoration: none;
+}
+
+.contact-page a:hover {
+   color: white;
+   text-decoration: underline;
+}
+
+.contact-page h1 {
+  color: white;
+  text-decoration: underline;
+  font-family: "Proxima Nova", Open Sans, sans-serif;
+  font-size: 36px;
+  margin: 10px 20px 10px;
+}
+
+.contact-page h2 {
+  color: white;
+  font-family: "Proxima Nova", Open Sans, sans-serif;
+  font-size: 18px;
+  margin: 20px 45px 20px;
+}
+
+.email-list-banner {
+  background-color: #121212;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  opacity: 0.8;
+}
+
+#email-funnel-container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+.email-list-banner h1 {
+  color: white;
+  font-family: "Proxima Nova", Open Sans, sans-serif;
+  font-size: 12px;
+}
+
+.email-list-banner a {
+  color: white;
+  font-family: "Proxima Nova", Open Sans, sans-serif;
+  font-size: 12px;
+}
